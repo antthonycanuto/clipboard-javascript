@@ -1,6 +1,9 @@
 body {
   background: #141416;
+}
 
+h1 {
+  color: white;
 }
 
 .clipboardContent {
@@ -8,10 +11,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-h1 {
-  color: white;
 }
 
 .text {
@@ -28,7 +27,7 @@ h1 {
 .btn {
   width: 150px;
   height: 50px;
-  background: linear-gradient(90deg,#15CCE5,#0AFBE8);
+  background: linear-gradient(90deg, #15cce5, #0afbe8);
   color: white;
   font-weight: bold;
   outline: none;
