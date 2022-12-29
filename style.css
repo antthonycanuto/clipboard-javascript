@@ -1,0 +1,46 @@
+body {
+  background: #141416;
+
+}
+
+.clipboardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+.text {
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  padding: 20px;
+  line-height: 22px;
+  width: 500px;
+  background: white;
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(90deg,#15CCE5,#0AFBE8);
+  color: white;
+  font-weight: bold;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px;
+  border: none;
+}
+
+.btn:hover {
+  background: #3bb2b8;
+}
+
+.btn .active {
+  background: #3bb2b8;
+}
